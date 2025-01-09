@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jppt/static/css/main.2be482b6.css",
+    "main.js": "/jppt/static/js/main.e7103b27.js",
+    "index.html": "/jppt/index.html",
+    "main.2be482b6.css.map": "/jppt/static/css/main.2be482b6.css.map",
+    "main.e7103b27.js.map": "/jppt/static/js/main.e7103b27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2be482b6.css",
+    "static/js/main.e7103b27.js"
+  ]
+}
