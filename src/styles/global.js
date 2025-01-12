@@ -5,6 +5,6 @@ export const reset = css`
         margin: 0;
         padding: 0;
         height: 100%;
-        background-color: #6f6565;
+        background-color: #000000;  
     }
 `;
