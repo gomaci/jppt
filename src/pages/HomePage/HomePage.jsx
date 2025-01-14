@@ -24,28 +24,27 @@ function HomePage(props) {
 
             </div>
 
-            <div css={s.main}>
+            <div css={s.main}> 
 
-                <div>
-                     <div css={s.logoBox}>
-                        <h1><Link to={'/'} >LOGO 국립현대미술관</Link></h1>          
-                    </div>
+                <div css={s.flexBox}>
+                    <div>
+                        <div css={s.logoBox}>
+                            <h1><Link to={'/'} >LOGO 국립현대미술관</Link></h1>          
+                        </div>
 
-                    <div css={s.navStickyBlock}>
-                        <div css={s.navBox}>
-                            {/* Link는 눌렀을 때 저 주소로 타고 들어가는 용용 */}
-                            <p><Link to={'/page/viewingparticipation'} >관람.참여</Link></p>
-                            <p><Link to={'/page/display'} >전시</Link></p>
-                            <p><Link to={'/page/education'} >교육</Link></p>
-                            <p><Link to={'/page/collection'} >소장품</Link></p>
-                            <p><Link to={'/page/artresearch'} >미술연구</Link></p>
-                            <p><Link to={'/page/digitalartmuseum'} >디지털미술관</Link></p>
+                    <div css={s.navBlock}>
+                            <div css={s.navBox}>
+                                <p><Link to={'/page/viewingparticipation'} >관람.참여</Link></p>
+                                <p><Link to={'/page/display'} >전시</Link></p>
+                                <p><Link to={'/page/education'} >교육</Link></p>
+                                <p><Link to={'/page/collection'} >소장품</Link></p>
+                                <p><Link to={'/page/artresearch'} >미술연구</Link></p>
+                                <p><Link to={'/page/digitalartmuseum'} >디지털미술관</Link></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                  
-
-                {/* <div css={s.inline}> */}
+                    
+                    
                     <div css={s.mainContent}>
 
                         <div css={s.inMainContent}>
@@ -57,12 +56,68 @@ function HomePage(props) {
                         </div>
 
                     </div>
-                {/* </div> */}
-               
-                   
-
-
+                </div>
               
+
+            <div css={s.flexBox2}>
+                <div css={s.artGalleryContent}>
+
+                    <div css={s.artGalleryTitleBlock}>
+                        <h3>미술관</h3>
+                    </div>
+
+
+                <div>
+                    
+                </div>
+                    <ul css={s.flexBox3}>
+                        <li>
+                            <div css={s.boardInner}>
+                                <div>이미지</div>
+                                <div css={s.infoBlock}>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div css={s.boardInner}>
+                                <div>이미지</div>
+                                <div css={s.infoBlock}>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div css={s.boardInner}>
+                                <div>이미지</div>
+                                <div css={s.infoBlock}>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div css={s.boardInner}>
+                                <div>이미지</div>
+                                <div css={s.infoBlock}>
+
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+
+
+                   
+                </div>
+
+            </div>
+                
+    
+               
+                
             </div>
 
             <div >

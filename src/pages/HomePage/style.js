@@ -45,13 +45,16 @@ export const spanBox2 = css`
 `;
 
 export const main = css`
-    // flex의 기본 형태가 row라서 자식들이 옆으로 나열된다
-    display: flex;
     width: 100%;
     height: 1000px;
     /* background-color:#2e2c2c; */
 `;
 
+export const flexBox = css`
+      // flex의 기본 형태가 row라서 자식들이 옆으로 나열된다
+      display: flex;
+
+`;
 
 
 export const logoBox = css`
@@ -71,12 +74,12 @@ export const logoBox = css`
 
 `;
 
-export const navStickyBlock = css`
+export const navBlock = css`
     display: flex;
     justify-content: center;
     padding: 32px 24px 8px;
     width: 288px;
-    height: 695.2px;
+    height: 260px;
     /* background-color: #968989; */
 `;
 
@@ -130,4 +133,37 @@ export const imgBlock = css`
     width: 932.8px;
     height: 500px;
     /* background-color: #e97ad5; */
+`;
+
+
+export const flexBox2 = css`
+    display: flex;
+    justify-content: center;
+`;
+
+export const artGalleryContent = css`
+    padding: 40px 0px 99px;
+    width: 1450px;
+    height: 500px;
+    background-color: #8cb6dc;
+`;
+
+export const artGalleryTitleBlock = css`
+
+`;
+
+export const flexBox3 = css`
+    display: flex;
+    justify-content: center;
+    
+`;
+
+export const boardInner = css`
+    width: 278.01px;
+    height: 412.13px;
+    background-color: #c0d684;
+`;
+
+export const infoBlock = css`
+   
 `;
