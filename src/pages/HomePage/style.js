@@ -142,28 +142,220 @@ export const flexBox2 = css`
 `;
 
 export const artGalleryContent = css`
+    /* box-sizing: border-box; */ // 여기서 박스사이징하면 내가 원하는 곳 보더 바텀에 줄 못 넣고 박스 모양 바뀜
+    border-bottom: 1px solid #ffffff;
     padding: 40px 0px 99px;
     width: 1450px;
     height: 500px;
-    background-color: #8cb6dc;
+    /* background-color: #8cb6dc; */
 `;
 
 export const artGalleryTitleBlock = css`
+    margin: 0px 0px 40px;
 
+    & > p {
+        font-size: 28px;
+        font-family:'Pretendard Semibold';
+        color: #dbdbdb;
+    }
 `;
 
 export const flexBox3 = css`
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     
 `;
 
 export const boardInner = css`
     width: 278.01px;
     height: 412.13px;
-    background-color: #c0d684;
+    /* background-color: #c0d684; */
+`;
+
+export const imgBlock2 = css`
+    width: 278.01px;
+    height: 184.83px;
+    /* background-color: #de66e9; */
 `;
 
 export const infoBlock = css`
-   
+
+    & > p {
+        margin: 9px 0px 7.5px;
+        font-size: 28px;
+        font-family: 'Pretendard Semibold';
+        color: #dbdbdb;
+    }
+
+    & > span {
+        margin: 8px 0px 7.5px;
+        color: #dbdbdb;
+    }
+`;
+
+export const tagBlock = css`
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0px 0px -2px;
+    
+`;
+
+export const flexBox4 = css`
+    display: flex;
+`;
+
+export const tag1 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 49.2px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag2 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 104.4px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag3 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 76.8px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag4 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 49.2px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag5 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 63px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag6 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 49.2px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag7 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 49.2px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag8 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 104.4px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag9 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 63px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag10 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 49.2px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag11 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 49.2px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag12 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 63px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
 `;

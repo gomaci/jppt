@@ -63,7 +63,7 @@ function HomePage(props) {
                 <div css={s.artGalleryContent}>
 
                     <div css={s.artGalleryTitleBlock}>
-                        <h3>미술관</h3>
+                        <p>미술관</p>
                     </div>
 
 
@@ -73,36 +73,79 @@ function HomePage(props) {
                     <ul css={s.flexBox3}>
                         <li>
                             <div css={s.boardInner}>
-                                <div>이미지</div>
-                                <div css={s.infoBlock}>
+                                <div css={s.imgBlock2}>이미지</div>
 
+                                <div css={s.infoBlock}>
+                                    <p>서울</p>
+                                    <span>월요일,화요일,목요일,금요일,일요일 10:00–18:00
+                                    수요일, 토요일 야간개장 10:00–21:00</span>
+                                    <div>
+                                        <div css={s.tagBlock}>
+                                            <div css={s.flexBox4}>
+                                                <p css={s.tag1}>전시</p>
+                                                <p css={s.tag2}>필름앤비디오</p>
+                                                <p css={s.tag3}>다원예술</p>
+                                            </div>
+                                            
+                                            <div css={s.flexBox4}>
+                                                <p css={s.tag4}>교육</p>
+                                                <p css={s.tag5}>이벤트</p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </li>
 
                         <li>
                             <div css={s.boardInner}>
-                                <div>이미지</div>
-                                <div css={s.infoBlock}>
+                                <div css={s.imgBlock2}>이미지</div>
 
+                                <div css={s.infoBlock}>
+                                    <p>과천</p>
+                                    <span>화요일–일요일(월요일 휴관), 10:00–18:00</span>
+                                    <div css={s.tagBlock}>
+                                        <div css={s.flexBox4}>
+                                            <p css={s.tag6}>전시</p>
+                                            <p css={s.tag7}>교육</p>
+                                            <p css={s.tag8}>어린이미술관</p>
+                                            <p css={s.tag9}>이벤트</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </li>
 
                         <li>
                             <div css={s.boardInner}>
-                                <div>이미지</div>
-                                <div css={s.infoBlock}>
+                                <div css={s.imgBlock2}>이미지</div>
 
+                                <div css={s.infoBlock}>
+                                    <p>덕수궁</p>
+                                    <span>화요일,목요일,금요일,일요일(월요일 휴관), 10:00–18:00 수요일, 토요일 야간개장 10:00–21:00</span>
+                                    <div css={s.tagBlock}>
+                                        <div css={s.flexBox4}>
+                                            <p css={s.tag10}>전시</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </li>
 
                         <li>
                             <div css={s.boardInner}>
-                                <div>이미지</div>
-                                <div css={s.infoBlock}>
+                                <div css={s.imgBlock2}>이미지</div>
 
+                                <div css={s.infoBlock}>
+                                    <p>청주</p>
+                                    <span>화요일–일요일(월요일 휴관), 10:00–18:00</span>
+                                    <div css={s.tagBlock}>
+                                        <div css={s.flexBox4}>
+                                            <p css={s.tag11}>전시</p>
+                                            <p css={s.tag12}>이벤트</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </li>
