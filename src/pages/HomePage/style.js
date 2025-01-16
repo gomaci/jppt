@@ -359,3 +359,42 @@ export const tag12 = css`
     font-family:'Pretendard';
     color: #dbdbdb;
 `;
+
+
+export const displayContent = css`
+    padding: 40px 0px 99px;
+    width: 1450px;
+    height: 700px;
+    background-color: #def190;
+`;
+
+export const displayTitleNavBox = css`
+    display: flex;
+    margin: 0px 0px 40px;
+    width: 1450px;
+    height: 70px;
+    background-color: #71a6f5;
+`;
+
+export const flexBox5 = css`
+    display: flex;
+
+`;
+
+export const displayBoardInner = css`
+    width: 400px;
+    height: 637px;
+    background-color: #df9595;
+`;
+
+export const displayImgBlock = css`
+    width: 400px;
+    height: 400px;
+    background-color: #baf078;
+`;
+
+export const displayInfoBlock = css`
+    width: 400px;
+    height: 237px;
+    background-color: #ed71dd;
+`;
