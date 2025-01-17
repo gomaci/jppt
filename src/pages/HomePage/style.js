@@ -196,7 +196,7 @@ export const infoBlock = css`
 export const tagBlock = css`
     display: flex;
     flex-direction: column;
-    margin: 16px 0px 0px -2px;
+    margin: 16px 0px 6px -2px;
     
 `;
 
@@ -370,10 +370,37 @@ export const displayContent = css`
 
 export const displayTitleNavBox = css`
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0px 0px 40px;
     width: 1450px;
     height: 70px;
     background-color: #71a6f5;
+`;
+
+export const displayFont = css`
+    font-size: 25px;
+    font-family: 'Pretendard Semibold';
+    color: #dbdbdb;
+`;
+
+export const displayFlexBox = css`
+    display: flex;
+    
+
+    & > p {
+        padding: 0px 10px 0px;
+        font-size: 28px;
+        font-family: 'Pretendard Semibold';
+        color: #dbdbdb;
+        
+    }
+`;
+
+export const displayAllFont = css`
+    font-size: 15px;
+    font-family: 'Pretendard';
+    color: #dbdbdb;
 `;
 
 export const flexBox5 = css`
@@ -397,4 +424,27 @@ export const displayInfoBlock = css`
     width: 400px;
     height: 237px;
     background-color: #ed71dd;
+`;
+
+export const displayA = css`
+   font-size: 15px;
+   font-family: 'Pretendard';
+   color: #dbdbdb;
+`;
+
+export const displaySpanTittle = css`
+    font-size: 18px;
+    font-family: 'Pretendard Semibold';
+    color: #dbdbdb;
+`;
+
+export const displayP = css`
+    margin: 10px 0px 0px;
+    font-size: 28px;
+    font-family: 'Pretendard Semibold';
+    color: #dbdbdb;
+`;
+
+export const displaySpan = css`
+    margin: 10px 0px 0px;
 `;
