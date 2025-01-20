@@ -162,7 +162,7 @@ export const artGalleryTitleBlock = css`
 
 export const flexBox3 = css`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
     
 `;
 
@@ -197,7 +197,6 @@ export const tagBlock = css`
     display: flex;
     flex-direction: column;
     margin: 16px 0px 6px -2px;
-    
 `;
 
 export const flexBox4 = css`
@@ -362,10 +361,11 @@ export const tag12 = css`
 
 
 export const displayContent = css`
+    border-bottom: 1px solid #ffffff;
     padding: 40px 0px 99px;
     width: 1450px;
     height: 700px;
-    background-color: #def190;
+    /* background-color: #def190; */
 `;
 
 export const displayTitleNavBox = css`
@@ -375,12 +375,12 @@ export const displayTitleNavBox = css`
     margin: 0px 0px 40px;
     width: 1450px;
     height: 70px;
-    background-color: #71a6f5;
+    /* background-color: #71a6f5; */
 `;
 
-export const displayFont = css`
-    font-size: 25px;
-    font-family: 'Pretendard Semibold';
+export const displayTitleFont = css`
+    font-size: 28px;
+    font-family:'Pretendard Semibold';
     color: #dbdbdb;
 `;
 
@@ -405,25 +405,29 @@ export const displayAllFont = css`
 
 export const flexBox5 = css`
     display: flex;
-
+    /* justify-content: space-between; 너무 따닥따닥 붙어있어서 효과없음  */
+    /* 부모한테 overflow hidden주면 자식 넘치는 거 숨겨짐 */
+     overflow: hidden;
 `;
 
 export const displayBoardInner = css`
+    /* 플렉스 안먹어서 마진으로 띄웠음 */
+    margin-right: 10px;
     width: 400px;
     height: 637px;
-    background-color: #df9595;
+    /* background-color: #df9595; */
 `;
 
 export const displayImgBlock = css`
     width: 400px;
     height: 400px;
-    background-color: #baf078;
+    /* background-color: #baf078; */
 `;
 
 export const displayInfoBlock = css`
     width: 400px;
     height: 237px;
-    background-color: #ed71dd;
+    /* background-color: #ed71dd; */
 `;
 
 export const displayA = css`
@@ -445,6 +449,209 @@ export const displayP = css`
     color: #dbdbdb;
 `;
 
+export const tag13 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 63px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag14 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 63px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag15 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 63px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag16 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 134.36px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag17 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 136.73px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag18 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 92.96px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag19 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 76.8px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag20 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 132px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag21 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 49.2px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag22 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 76.8px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag23 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 63.53px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag24 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 104.93px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+export const tag25 = css`
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 4px 2px;
+    padding: 2px 10px;
+    width: 63.53px;
+    height: 25px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+
 export const displaySpan = css`
     margin: 10px 0px 0px;
+    font-size: 15px;
+    font-family:'Pretendard';
+    color: #dbdbdb;
+`;
+
+
+export const collectionContent = css`
+    padding: 40px 0px 99px;
+    width: 1450px;
+    height: 500px;
+    background-color: #8cb6dc;
+`;
+
+export const collectionTitleBlock = css`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 40px;
+    width: 1450px;
+    height: 70px;
+    background-color: #bc71f5;
+`;
+
+export const collectionTitleFont = css`
+    font-size: 28px;
+    font-family:'Pretendard Semibold';
+    color: #dbdbdb;
+`;
+
+export const collectionAllFont = css`
+    font-size: 15px;
+    font-family: 'Pretendard';
+    color: #dbdbdb;
 `;

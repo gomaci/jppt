@@ -153,134 +153,145 @@ function HomePage(props) {
             <div css={s.flexBox2}>
                 <div css={s.displayContent}>
 
-                <div css={s.displayTitleNavBox}>
-                    <h3 css={s.displayFont}>전시</h3>
+                    <div css={s.displayTitleNavBox}>
+                        <p css={s.displayTitleFont}>전시</p>
+                        
+                        <div css={s.displayFlexBox}>
+                            <p>전체</p>
+                            <p>서울</p>
+                            <p>과천</p>
+                            <p>덕수궁</p>
+                            <p>청주</p>
+                            <p>어린이미술관</p>
+                        </div>
                     
-                    <div css={s.displayFlexBox}>
-                        <p>전체</p>
-                        <p>서울</p>
-                        <p>과천</p>
-                        <p>덕수궁</p>
-                        <p>청주</p>
-                        <p>어린이미술관</p>
+                        <p css={s.displayAllFont}>전시모두보기 ›</p>
                     </div>
-                   
-                    <p css={s.displayAllFont}>전시모두보기 ›</p>
+
+                    <ul css={s.flexBox5}>
+
+                        <li>
+                            <div css={s.displayBoardInner}>
+                                <div css={s.displayImgBlock}>이미지</div>
+
+                                <div css={s.displayInfoBlock}>
+                                    <a css={s.displayA}>
+                                        <span css={s.displaySpanTittle}>덕수궁</span>
+                                        <p css={s.displayP}>수묵별미(水墨別美): 한 · 중 근현대 회화</p>
+                                        국립현대미술관과 중국 유일의 국립미술관인 중국미술관이 양국의 근현대 수묵채색화 걸작들을 한자리에서 선보인다.
+                                    </a>
+                                    
+                                    <div css={s.tagBlock}>
+                                        <div css={s.flexBox4}>
+                                            <p css={s.tag13}>한국화</p>
+                                            <p css={s.tag14}>중국화</p>
+                                            <p css={s.tag15}>수묵화</p>
+                                            <p css={s.tag16}>중국미술관 교류전</p>
+                                        </div>
+                                    </div>
+
+                                    <span css={s.displaySpan}>2024-11-28~2025-02-16</span>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div css={s.displayBoardInner}>
+                                <div css={s.displayImgBlock}>이미지</div>
+
+                                <div css={s.displayInfoBlock}>
+                                    <a css={s.displayA}>
+                                        <span css={s.displaySpanTittle}>과천</span>
+                                        <p css={s.displayP}>한국 현대 도자공예: 영원의 지금에서 늘 새로운</p>
+                                        1950년대부터 오늘날까지 역동적인 한국 현대 도자공예의 다채로운 모습 조명
+                                    </a>
+                                    
+                                    <div css={s.tagBlock}>
+                                        <div css={s.flexBox4}>
+                                            <p css={s.tag17}>한국 현대 도자공예</p>
+                                            <p css={s.tag18}>도자와 사회</p>
+                                            <p css={s.tag19}>도자문화</p>
+                                        </div>
+                                    </div>
+
+                                    <span css={s.displaySpan}>2024-11-21~2025-05-06</span>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div css={s.displayBoardInner}>
+                                <div css={s.displayImgBlock}>이미지</div>
+
+                                <div css={s.displayInfoBlock}>
+                                    <a css={s.displayA}>
+                                        <span css={s.displaySpanTittle}>서울</span>
+                                        <p css={s.displayP}>프로젝트 해시태그 2024</p>
+                                        ‹프로젝트 해시태그 2024›는 다양한 분야의 차세대 창작 협업팀을 발굴하고 지원하는 공모프로그램이다
+                                    </a>
+                                    
+                                    <div css={s.tagBlock}>
+                                        <div css={s.flexBox4}>
+                                            <p css={s.tag20}>프로젝트해시태그</p>
+                                            <p css={s.tag21}>협업</p>
+                                            <p css={s.tag22}>쇼케이스</p>
+                                        </div>
+                                    </div>
+
+                                    <span css={s.displaySpan}>2024-11-15~2025-04-27</span>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div css={s.displayBoardInner}>
+                                <div css={s.displayImgBlock}>이미지</div>
+
+                                <div css={s.displayInfoBlock}>
+                                    <a css={s.displayA}>
+                                        <span css={s.displaySpanTittle}>서울</span>
+                                        <p css={s.displayP}>이강소: 風來水面時 풍래수면시</p>
+                                        한국의 주요 실험미술운동을 관통한 이강소의 역사적인 작업을 중심으로, 작가의 개념적인 실천과 태도를 살펴보는 개인 주제전
+                                    </a>
+                                    
+                                    <div css={s.tagBlock}>
+                                        <div css={s.flexBox4}>
+                                            <p css={s.tag23}>이강소</p>
+                                            <p css={s.tag24}>한국실험미술</p>
+                                            <p css={s.tag25}>개인전</p>
+                                        </div>
+                                    </div>
+
+                                    <span css={s.displaySpan}>2024-11-01~2025-04-13</span>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    </div>
                 </div>
+                
+            <div css={s.flexBox2}>
+                <div css={s.collectionContent}>
 
-                <ul css={s.flexBox5}>
+                    <div css={s.collectionTitleBlock}>
+                        <p css={s.collectionTitleFont}>소장품</p>
 
-                    <li>
-                        <div css={s.displayBoardInner}>
-                            <div css={s.displayImgBlock}>이미지</div>
+                        <p css={s.collectionAllFont}>소장품모두보기 ›</p>
+                    </div>
 
-                            <div css={s.displayInfoBlock}>
-                                <a css={s.displayA}>
-                                    <span css={s.displaySpanTittle}>덕수궁</span>
-                                    <p css={s.displayP}>수묵별미(水墨別美): 한 · 중 근현대 회화</p>
-                                    국립현대미술관과 중국 유일의 국립미술관인 중국미술관이 양국의 근현대 수묵채색화 걸작들을 한자리에서 선보인다.
-                                </a>
-                                
-                                <div css={s.tagBlock}>
-                                    <div css={s.flexBox4}>
-                                        <p>한국화</p>
-                                        <p>중국화</p>
-                                        <p>수묵화</p>
-                                        <p>중국미술관 교류전</p>
-                                    </div>
-                                </div>
-
-                                <span css={s.displaySpan}>2024-11-28~2025-02-16</span>
-
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div css={s.displayBoardInner}>
-                            <div css={s.displayImgBlock}>이미지</div>
-
-                            <div css={s.displayInfoBlock}>
-                                <a css={s.displayA}>
-                                    <span css={s.displaySpanTittle}>과천</span>
-                                    <p css={s.displayP}>한국 현대 도자공예: 영원의 지금에서 늘 새로운</p>
-                                    1950년대부터 오늘날까지 역동적인 한국 현대 도자공예의 다채로운 모습 조명
-                                </a>
-                                
-                                <div css={s.tagBlock}>
-                                    <div css={s.flexBox4}>
-                                        <p>한국 현대 도자공예</p>
-                                        <p>도자와 사회</p>
-                                        <p>도자문화</p>
-                                    </div>
-                                </div>
-
-                                <span css={s.displaySpan}>2024-11-21~2025-05-06</span>
-
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div css={s.displayBoardInner}>
-                            <div css={s.displayImgBlock}>이미지</div>
-
-                            <div css={s.displayInfoBlock}>
-                                <a css={s.displayA}>
-                                    <span css={s.displaySpanTittle}>서울</span>
-                                    <p css={s.displayP}>프로젝트 해시태그 2024</p>
-                                    ‹프로젝트 해시태그 2024›는 다양한 분야의 차세대 창작 협업팀을 발굴하고 지원하는 공모프로그램이다
-                                </a>
-                                
-                                <div css={s.tagBlock}>
-                                    <div css={s.flexBox4}>
-                                        <p>프로젝트해시태그</p>
-                                        <p>협업</p>
-                                        <p>쇼케이스</p>
-                                    </div>
-                                </div>
-
-                                <span css={s.displaySpan}>2024-11-15~2025-04-27</span>
-
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div css={s.displayBoardInner}>
-                            <div css={s.displayImgBlock}>이미지</div>
-
-                            <div css={s.displayInfoBlock}>
-                                <a css={s.displayA}>
-                                    <span css={s.displaySpanTittle}>서울</span>
-                                    <p css={s.displayP}>이강소: 風來水面時 풍래수면시</p>
-                                    한국의 주요 실험미술운동을 관통한 이강소의 역사적인 작업을 중심으로, 작가의 개념적인 실천과 태도를 살펴보는 개인 주제전
-                                </a>
-                                
-                                <div css={s.tagBlock}>
-                                    <div css={s.flexBox4}>
-                                        <p>이강소</p>
-                                        <p>한국실험미술</p>
-                                        <p>개인전</p>
-                                    </div>
-                                </div>
-
-                                <span css={s.displaySpan}>2024-11-01~2025-04-13</span>
-
-                            </div>
-
-                        </div>
-                    </li>
-
-                </ul>
 
                 </div>
             </div>
-                
-
            
                 
     
