@@ -289,6 +289,27 @@ function HomePage(props) {
                         <p css={s.collectionAllFont}>소장품모두보기 ›</p>
                     </div>
 
+                    <ul css={s.flexBox5}>
+
+                        <li>
+                            <div css={s.collectionBoardInner}>
+
+                            </div>
+                        </li>
+
+                        <li>
+
+                        </li>
+
+                        <li>
+
+                        </li>
+
+                        <li>
+
+                        </li>
+
+                    </ul>
 
                 </div>
             </div>

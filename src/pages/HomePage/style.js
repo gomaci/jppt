@@ -655,3 +655,7 @@ export const collectionAllFont = css`
     font-family: 'Pretendard';
     color: #dbdbdb;
 `;
+
+export const collectionBoardInner = css`
+    
+`;
