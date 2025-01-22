@@ -298,15 +298,21 @@ function HomePage(props) {
                         </li>
 
                         <li>
+                            <div css={s.collectionBoardInner}>
 
+                            </div>
                         </li>
 
                         <li>
-
+                            <div css={s.collectionBoardInner}> 
+                            
+                            </div>
                         </li>
 
                         <li>
+                            <div css={s.collectionBoardInner}>
 
+                            </div> 
                         </li>
 
                     </ul>
